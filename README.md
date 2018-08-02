@@ -10,12 +10,16 @@
 7. Run `git remote add origin YOUR_REPO_URL_HERE` to tell Cloud9 where to push the files. You can get your repo URL by referring the git commands given to you on the GitHub page you were taken in step one. The URL should end in `.git`.
 8. Run `git push -u origin master` in Cloud9.
 9. Go back to GitHub and refresh your repo page. You should now see your code in the repo! Navigate to "Settings" in the top menu bar.
-10. In Settings, scroll down until you see "GitHub Pages." Add "master branch" as a source and then hit save.
-11. Make another change to your project repo in Cloud9.
-12. Run `git status` to see your change, and `git add .` to add the change to your next git commit.
-13. Run `git commit -m "Your message here"` with a message describing your change.
-14. Run `git push origin master` to push the change to your GitHub repo.
-15. Go to the GitHub Pages URL that appeared in your settings. You should now be able to see your live site!
+10. In Settings, scroll down until you see "GitHub Pages." Add "master branch" as a source and then hit save. Go the GitHub Pages URL that appeared. (Note: It may take a minute for your site to be live.)
+
+**Congratulations -- your website should soon be live!**
+
+#### To update changes to your site...
+
+1. Run `git status` to see your change, and `git add .` to add the change to your next git commit.
+2. Run `git commit -m "Your message here"` with a message describing your change.
+3. Run `git push origin master` to push the change to your GitHub repo.
+4. See the changes on your site! Do a hard refresh if the changes aren't appearing.
 
 ## GitHub Workflow
 ##### Terminal Commands
